@@ -9,7 +9,7 @@ const typeDefs = `
 
   type Book {
     _id: ID!
-    authors: String
+    authors: [String]
     description: String
     bookId: String
     image: String
@@ -23,8 +23,7 @@ const typeDefs = `
   }
 
   type Query {
-    user(username: String): User
-  
+    me(_id: String, username: String): User
   }
 
   type Mutation {
