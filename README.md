@@ -89,4 +89,4 @@ The frontend uses **Apollo Client** to manage GraphQL requests. Apollo hooks lik
 The application is deployed to **Render**. You can view the live version [here](#).
 
 ## **Repository**
-You can access the project repository on GitHub [here](https://github.com/fredonyjr/book-search-engine).
+You can access the project repository on GitHub [here](https://github.com/fredonyernesto/book-search-engine).
